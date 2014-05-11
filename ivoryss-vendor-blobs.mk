@@ -90,3 +90,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/samsungpowersoundplay:system/bin/samsungpowersoundplay \
     $(LOCAL_PATH)/proprietary/BCM4334B0_002.001.013.0602.0616.hcd:system/bin/BCM4334B0_002.001.013.0602.0616.hcd \
+    $(LOCAL_PATH)/proprietary/libGLES_rhea.so:system/lib/egl/libGLES_rhea.so \
