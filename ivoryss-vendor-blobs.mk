@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/gps.rhea.so:system/lib/hw/gps.rhea.so \
     $(LOCAL_PATH)/proprietary/gralloc.rhea.so:system/lib/hw/gralloc.rhea.so \
     $(LOCAL_PATH)/proprietary/hwcomposer.rhea.so:system/lib/hw/hwcomposer.rhea.so \
-    $(LOCAL_PATH)/proprietary/lights.rhea.so:system/lib/hw/hwcomposer.rhea.so \
+    $(LOCAL_PATH)/proprietary/lights.rhea.so:system/lib/hw/lights.rhea.so \
     $(LOCAL_PATH)/proprietary/sensors.rhea.so:system/lib/hw/sensors.rhea.so 
 
 PRODUCT_COPY_FILES += \
