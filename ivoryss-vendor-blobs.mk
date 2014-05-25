@@ -22,7 +22,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/gralloc.rhea.so:system/lib/hw/gralloc.rhea.so \
     $(LOCAL_PATH)/proprietary/hwcomposer.rhea.so:system/lib/hw/hwcomposer.rhea.so \
     $(LOCAL_PATH)/proprietary/lights.rhea.so:system/lib/hw/lights.rhea.so \
-    $(LOCAL_PATH)/proprietary/sensors.rhea.so:system/lib/hw/sensors.rhea.so 
+    $(LOCAL_PATH)/proprietary/sensors.rhea.so:system/lib/hw/sensors.rhea.so \
+    $(LOCAL_PATH)/proprietary/acoustics.default.so:system/lib/hw/acoustics.default.so \
+    $(LOCAL_PATH)/proprietary/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/audio.so:system/lib/bluez-plugin/audio.so \
+    $(LOCAL_PATH)/proprietary/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
+    $(LOCAL_PATH)/proprietary/input.so:system/lib/bluez-plugin/input.so \
+    $(LOCAL_PATH)/proprietary/network.so:system/lib/bluez-plugin/network.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
@@ -42,7 +50,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.video.h264.encoder.so:system/lib/libOMX.brcm.video.h264.encoder.so \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.video.mpeg4.encoder.so:system/lib/libOMX.brcm.video.mpeg4.encoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.vpx.decoder.so:system/lib/libOMX.brcm.video.vpx.decoder.so 
+    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.vpx.decoder.so:system/lib/libOMX.brcm.video.vpx.decoder.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so \
@@ -67,7 +75,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     $(LOCAL_PATH)/proprietary/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     $(LOCAL_PATH)/proprietary/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
-    $(LOCAL_PATH)/proprietary/libsamsungtts.so:system/lib/libsamsungtts.so 
+    $(LOCAL_PATH)/proprietary/libsamsungtts.so:system/lib/libsamsungtts.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libseccameracore.so:system/lib/libseccameracore.so \
@@ -83,11 +91,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libsec_km.so:system/lib/libsec_km.so \
     $(LOCAL_PATH)/proprietary/libsecmediarecorder_jni.so:system/lib/libsecmediarecorder_jni.so \
     $(LOCAL_PATH)/proprietary/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    $(LOCAL_PATH)/proprietary/libsecril-client.so:system/lib/libsecril-client.so 
+    $(LOCAL_PATH)/proprietary/libsecril-client.so:system/lib/libsecril-client.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/gfx.fw:system/vendor/gfx.fw \
     $(LOCAL_PATH)/proprietary/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/samsungpowersoundplay:system/bin/samsungpowersoundplay \
     $(LOCAL_PATH)/proprietary/BCM4334B0_002.001.013.0602.0616.hcd:system/bin/BCM4334B0_002.001.013.0602.0616.hcd \
-    $(LOCAL_PATH)/proprietary/libGLES_rhea.so:system/lib/egl/libGLES_rhea.so 
+    $(LOCAL_PATH)/proprietary/libGLES_rhea.so:system/lib/egl/libGLES_rhea.so \
+    $(LOCAL_PATH)/proprietary/j4fs.ko:system/lib/modules/j4fs.ko \
+    $(LOCAL_PATH)/proprietary/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
+    $(LOCAL_PATH)/proprietary/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so
