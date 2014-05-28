@@ -250,7 +250,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libXIVCoder.so:system/lib/libXIVCoder.so \
     $(LOCAL_PATH)/proprietary/lib_ARC_Omx_Plugin.so:system/lib/lib_ARC_Omx_Plugin.so \
     $(LOCAL_PATH)/proprietary/lib_SoundAlive_for_ICS_V01013a.so:system/lib/lib_SoundAlive_for_ICS_V01013a.so \
-    $(LOCAL_PATH)/proprietary/ListaArchivos.exe:system/lib/ListaArchivos.exe \
     $(LOCAL_PATH)/proprietary/log.txt:system/lib/log.txt \
     $(LOCAL_PATH)/proprietary/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     $(LOCAL_PATH)/proprietary/libomaplugin.so:system/lib/drm/libomaplugin.so \
