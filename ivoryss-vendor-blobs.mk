@@ -257,3 +257,36 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
     $(LOCAL_PATH)/proprietary/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
     $(LOCAL_PATH)/proprietary/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/atrace:system/bin/atrace \
+    $(LOCAL_PATH)/proprietary/atx:system/bin/atx \
+    $(LOCAL_PATH)/proprietary/atxd:system/bin/atxd \
+    $(LOCAL_PATH)/proprietary/bkmgrd:system/bin/bkmgrd \
+    $(LOCAL_PATH)/proprietary/cate_rpc_util:system/bin/cate_rpc_util \
+    $(LOCAL_PATH)/proprietary/glgps:system/bin/glgps \
+    $(LOCAL_PATH)/proprietary/gps.cer:system/bin/gps.cer \
+    $(LOCAL_PATH)/proprietary/gpslogd:system/bin/gpslogd \
+    $(LOCAL_PATH)/proprietary/immvibed:system/bin/immvibed \
+    $(LOCAL_PATH)/proprietary/macloader:system/bin/macloader \
+    $(LOCAL_PATH)/proprietary/mttlogger:system/bin/mttlogger \
+    $(LOCAL_PATH)/proprietary/npsmobex:system/bin/npsmobex \
+    $(LOCAL_PATH)/proprietary/asound.conf:system/etc/asound.conf \
+    $(LOCAL_PATH)/proprietary/audio_policy.conf:system/etc/audio_policy.conf \
+    $(LOCAL_PATH)/proprietary/DiamondVoice.txt:system/etc/DiamondVoice.txt \
+    $(LOCAL_PATH)/proprietary/gps.conf:system/etc/gps.conf \
+    $(LOCAL_PATH)/proprietary/media_codecs.xml:system/etc/media_codecs.xml \
+    $(LOCAL_PATH)/proprietary/media_profiles.xml:system/etc/media_profiles.xml \
+    $(LOCAL_PATH)/proprietary/srm.bin:system/etc/srm.bin \
+    $(LOCAL_PATH)/proprietary/Volume.db:system/etc/Volume.db \
+    $(LOCAL_PATH)/proprietary/audio.conf:system/etc/bluetooth/audio.conf \
+    $(LOCAL_PATH)/proprietary/input.conf:system/etc/bluetooth/input.conf \
+    $(LOCAL_PATH)/proprietary/network.conf:system/etc/bluetooth/network.conf \
+    $(LOCAL_PATH)/proprietary/glconfig.xml:system/etc/gps/glconfig.xml \
+    $(LOCAL_PATH)/proprietary/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
+    $(LOCAL_PATH)/proprietary/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
+    $(LOCAL_PATH)/proprietary/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
+    $(LOCAL_PATH)/proprietary/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
+    $(LOCAL_PATH)/proprietary/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
