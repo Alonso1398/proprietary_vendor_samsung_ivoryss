@@ -276,12 +276,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/DiamondVoice.txt:system/etc/DiamondVoice.txt \
     $(LOCAL_PATH)/proprietary/gps.conf:system/etc/gps.conf \
     $(LOCAL_PATH)/proprietary/media_codecs.xml:system/etc/media_codecs.xml \
-    $(LOCAL_PATH)/proprietary/media_profiles.xml:system/etc/media_profiles.xml \
     $(LOCAL_PATH)/proprietary/srm.bin:system/etc/srm.bin \
     $(LOCAL_PATH)/proprietary/Volume.db:system/etc/Volume.db \
-    $(LOCAL_PATH)/proprietary/audio.conf:system/etc/bluetooth/audio.conf \
-    $(LOCAL_PATH)/proprietary/input.conf:system/etc/bluetooth/input.conf \
-    $(LOCAL_PATH)/proprietary/network.conf:system/etc/bluetooth/network.conf \
     $(LOCAL_PATH)/proprietary/glconfig.xml:system/etc/gps/glconfig.xml \
     $(LOCAL_PATH)/proprietary/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
     $(LOCAL_PATH)/proprietary/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
@@ -290,3 +286,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/proprietary/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     $(LOCAL_PATH)/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
+    $(LOCAL_PATH)/proprietary/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
+    $(LOCAL_PATH)/proprietary/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
+    $(LOCAL_PATH)/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf 
