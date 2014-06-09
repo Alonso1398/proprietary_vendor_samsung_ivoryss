@@ -176,7 +176,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     $(LOCAL_PATH)/proprietary/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     $(LOCAL_PATH)/proprietary/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    $(LOCAL_PATH)/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+    $(LOCAL_PATH)/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    $(LOCAL_PATH)/proprietary/libcontrolcsc.so:system/lib/libcontrolcsc.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
