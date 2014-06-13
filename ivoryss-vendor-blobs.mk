@@ -108,8 +108,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libaacdecoderwrapper.so:system/lib/libaacdecoderwrapper.so \
     $(LOCAL_PATH)/proprietary/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     $(LOCAL_PATH)/proprietary/libasound.so:system/lib/libasound.so \
-    $(LOCAL_PATH)/proprietary/libat.so:system/vendor/lib/libat.so \
-    $(LOCAL_PATH)/proprietary/librpc.so:system/vendor/lib/librpc.so \
+    $(LOCAL_PATH)/proprietary/libat.so:system/lib/libat.so \
+    $(LOCAL_PATH)/proprietary/librpc.so:system/lib/librpc.so \
     $(LOCAL_PATH)/proprietary/libatlog.so:system/lib/libatlog.so \
     $(LOCAL_PATH)/proprietary/libat_stubs.so:system/lib/libat_stubs.so \
     $(LOCAL_PATH)/proprietary/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
