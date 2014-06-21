@@ -185,3 +185,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
     $(LOCAL_PATH)/proprietary/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
     $(LOCAL_PATH)/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf 
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+    $(LOCAL_PATH)/proprietary/btld:system/bin/btld \
+    $(LOCAL_PATH)/proprietary/mfgloader:system/bin/mfgloader \
+    $(LOCAL_PATH)/proprietary/p2p_supplicant:system/bin/p2p_supplicant \
+    $(LOCAL_PATH)/proprietary/usbdev_mode:system/bin/usbdev_mode \
+    $(LOCAL_PATH)/proprietary/usb_portd:system/bin/usb_portd \
+    $(LOCAL_PATH)/proprietary/wlandutservice:system/bin/wlandutservice \
+    $(LOCAL_PATH)/proprietary/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
+    $(LOCAL_PATH)/proprietary/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
+    $(LOCAL_PATH)/proprietary/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
+    $(LOCAL_PATH)/proprietary/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
+    $(LOCAL_PATH)/proprietary/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
+    $(LOCAL_PATH)/proprietary/libmpeg4_dummy_enc.so:system/lib/libmpeg4_dummy_enc.so \
+    $(LOCAL_PATH)/proprietary/libmpeg4_fake_dec.so:system/lib/libmpeg4_fake_dec.so
