@@ -200,4 +200,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
     $(LOCAL_PATH)/proprietary/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
     $(LOCAL_PATH)/proprietary/libmpeg4_dummy_enc.so:system/lib/libmpeg4_dummy_enc.so \
-    $(LOCAL_PATH)/proprietary/libmpeg4_fake_dec.so:system/lib/libmpeg4_fake_dec.so
+    $(LOCAL_PATH)/proprietary/libmpeg4_fake_dec.so:system/lib/libmpeg4_fake_dec.so \
+    $(LOCAL_PATH)/proprietary/libcodec_util.so:system/lib/libcodec_util.so \
+    $(LOCAL_PATH)/proprietary/libdeblock.so:system/lib/libdeblock.so \
+    $(LOCAL_PATH)/proprietary/libh263_dummy_enc.so:system/lib/libh263_dummy_enc.so \
+    $(LOCAL_PATH)/proprietary/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
+    $(LOCAL_PATH)/proprietary/libh264_dummy_enc.so:system/lib/libh264_dummy_enc.so \
+    $(LOCAL_PATH)/proprietary/libmp3_dec_dummy.so:system/lib/libmp3_dec_dummy.so \
+    $(LOCAL_PATH)/proprietary/libmp3_enc_dummy.so:system/lib/libmp3_enc_dummy.so \
+    $(LOCAL_PATH)/proprietary/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so \
+    $(LOCAL_PATH)/proprietary/libtiming.so:system/lib/libtiming.so
