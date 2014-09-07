@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/DiamondVoice.txt:system/etc/DiamondVoice.txt \
     $(LOCAL_PATH)/proprietary/gps.conf:system/etc/gps.conf \
     $(LOCAL_PATH)/proprietary/media_codecs.xml:system/etc/media_codecs.xml \
+    $(LOCAL_PATH)/proprietary/media_profiles.xml:system/etc/media_profiles.xml \
     $(LOCAL_PATH)/proprietary/srm.bin:system/etc/srm.bin \
     $(LOCAL_PATH)/proprietary/Volume.db:system/etc/Volume.db \
     $(LOCAL_PATH)/proprietary/glconfig.xml:system/etc/gps/glconfig.xml \
