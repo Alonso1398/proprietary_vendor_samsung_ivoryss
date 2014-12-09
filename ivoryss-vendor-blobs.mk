@@ -66,31 +66,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libbrcmparser.so:system/lib/libbrcmparser.so \
     $(LOCAL_PATH)/proprietary/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     $(LOCAL_PATH)/proprietary/libril.so:system/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/libSamsungAnimation.so:system/lib/libSamsungAnimation.so \
     $(LOCAL_PATH)/proprietary/libsamsungAsf.so:system/lib/libsamsungAsf.so \
     $(LOCAL_PATH)/proprietary/lib_Samsung_ASF_for_ICS_v01.so:system/lib/lib_Samsung_ASF_for_ICS_v01.so \
-    $(LOCAL_PATH)/proprietary/libSamsungPDLComposer_MD.so:system/lib/libSamsungPDLComposer_MD.so \
-    $(LOCAL_PATH)/proprietary/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     $(LOCAL_PATH)/proprietary/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     $(LOCAL_PATH)/proprietary/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
     $(LOCAL_PATH)/proprietary/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     $(LOCAL_PATH)/proprietary/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
-    $(LOCAL_PATH)/proprietary/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
-    $(LOCAL_PATH)/proprietary/libsamsungtts.so:system/lib/libsamsungtts.so
+    $(LOCAL_PATH)/proprietary/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/libseccameracore.so:system/lib/libseccameracore.so \
-    $(LOCAL_PATH)/proprietary/libseccamera_jni.so:system/lib/libseccamera_jni.so \
-    $(LOCAL_PATH)/proprietary/libsec_cryptomnt.so:system/lib/libsec_cryptomnt.so \
-    $(LOCAL_PATH)/proprietary/libsec_devenc.so:system/lib/libsec_devenc.so \
-    $(LOCAL_PATH)/proprietary/libsec_ecryptfs.so:system/lib/libsec_ecryptfs.so \
-    $(LOCAL_PATH)/proprietary/libsecface.so:system/lib/libsecface.so \
-    $(LOCAL_PATH)/proprietary/libsecfips.so:system/lib/libsecfips.so \
-    $(LOCAL_PATH)/proprietary/libsecjpegboard.so:system/lib/libsecjpegboard.so \
-    $(LOCAL_PATH)/proprietary/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
     $(LOCAL_PATH)/proprietary/libseckeyprov.so:system/lib/libseckeyprov.so \
-    $(LOCAL_PATH)/proprietary/libsec_km.so:system/lib/libsec_km.so \
-    $(LOCAL_PATH)/proprietary/libsecmediarecorder_jni.so:system/lib/libsecmediarecorder_jni.so \
     $(LOCAL_PATH)/proprietary/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/libsecril-client.so:system/lib/libsecril-client.so
 
@@ -188,13 +173,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+    $(LOCAL_PATH)/proprietary/bluetoothd:system/bin/bluetoothd \
     $(LOCAL_PATH)/proprietary/btld:system/bin/btld \
     $(LOCAL_PATH)/proprietary/mfgloader:system/bin/mfgloader \
-    $(LOCAL_PATH)/proprietary/p2p_supplicant:system/bin/p2p_supplicant \
     $(LOCAL_PATH)/proprietary/usbdev_mode:system/bin/usbdev_mode \
     $(LOCAL_PATH)/proprietary/usb_portd:system/bin/usb_portd \
-    $(LOCAL_PATH)/proprietary/wlandutservice:system/bin/wlandutservice \
     $(LOCAL_PATH)/proprietary/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
     $(LOCAL_PATH)/proprietary/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
     $(LOCAL_PATH)/proprietary/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
