@@ -26,12 +26,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/acoustics.default.so:system/lib/hw/acoustics.default.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/audio.so:system/lib/bluez-plugin/audio.so \
-    $(LOCAL_PATH)/proprietary/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
-    $(LOCAL_PATH)/proprietary/input.so:system/lib/bluez-plugin/input.so \
-    $(LOCAL_PATH)/proprietary/network.so:system/lib/bluez-plugin/network.so
-
-PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.aac.encoder.so:system/lib/libOMX.brcm.audio.aac.encoder.so \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.amrnb.decoder.so:system/lib/libOMX.brcm.audio.amrnb.decoder.so \
@@ -174,7 +168,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bluetoothd:system/bin/bluetoothd \
-    $(LOCAL_PATH)/proprietary/btld:system/bin/btld \
     $(LOCAL_PATH)/proprietary/mfgloader:system/bin/mfgloader \
     $(LOCAL_PATH)/proprietary/usbdev_mode:system/bin/usbdev_mode \
     $(LOCAL_PATH)/proprietary/usb_portd:system/bin/usb_portd \
