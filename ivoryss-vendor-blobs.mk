@@ -16,7 +16,6 @@ LOCAL_PATH := vendor/samsung/ivoryss
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/audio.primary.rhea.so:system/lib/hw/audio.primary.rhea.so \
-    $(LOCAL_PATH)/proprietary/audio_policy.rhea.so:system/lib/hw/audio_policy.rhea.so \
     $(LOCAL_PATH)/proprietary/camera.rhea.so:system/lib/hw/camera.rhea.so \
     $(LOCAL_PATH)/proprietary/gps.rhea.so:system/lib/hw/gps.rhea.so \
     $(LOCAL_PATH)/proprietary/gralloc.rhea.so:system/lib/hw/gralloc.rhea.so \
@@ -74,7 +73,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libsecril-client.so:system/lib/libsecril-client.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/gfx.fw:system/vendor/gfx.fw \
     $(LOCAL_PATH)/proprietary/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/samsungpowersoundplay:system/bin/samsungpowersoundplay \
     $(LOCAL_PATH)/proprietary/BCM4334B0_002.001.013.0602.0616.hcd:system/bin/BCM4334B0_002.001.013.0602.0616.hcd \
@@ -91,7 +89,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/librpc.so:system/lib/librpc.so \
     $(LOCAL_PATH)/proprietary/libatlog.so:system/lib/libatlog.so \
     $(LOCAL_PATH)/proprietary/libat_stubs.so:system/lib/libat_stubs.so \
-    $(LOCAL_PATH)/proprietary/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     $(LOCAL_PATH)/proprietary/libbralloc.so:system/lib/libbralloc.so \
     $(LOCAL_PATH)/proprietary/libcapi2.so:system/lib/libcapi2.so \
     $(LOCAL_PATH)/proprietary/libcate_rpc.so:system/lib/libcate_rpc.so \
@@ -157,8 +154,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     $(LOCAL_PATH)/proprietary/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     $(LOCAL_PATH)/proprietary/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    $(LOCAL_PATH)/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    $(LOCAL_PATH)/proprietary/libcontrolcsc.so:system/lib/libcontrolcsc.so
+    $(LOCAL_PATH)/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
