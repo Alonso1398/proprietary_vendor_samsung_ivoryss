@@ -31,18 +31,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.amrnb.encoder.so:system/lib/libOMX.brcm.audio.amrnb.encoder.so \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.amrwb.decoder.so:system/lib/libOMX.brcm.audio.amrwb.decoder.so \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.amrwb.encoder.so:system/lib/libOMX.brcm.audio.amrwb.encoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.dummy.decoder.so:system/lib/libOMX.brcm.audio.dummy.decoder.so \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.mp3.decoder.so:system/lib/libOMX.brcm.audio.mp3.decoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.mp3.encoder.so:system/lib/libOMX.brcm.audio.mp3.encoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.dummy.decoder.so:system/lib/libOMX.brcm.video.dummy.decoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.dummy.encoder.so:system/lib/libOMX.brcm.video.dummy.encoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.h263.decoder.so:system/lib/libOMX.brcm.video.h263.decoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.h263.encoder.so:system/lib/libOMX.brcm.video.h263.encoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.h264.decoder.so:system/lib/libOMX.brcm.video.h264.decoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.h264.encoder.so:system/lib/libOMX.brcm.video.h264.encoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.mpeg4.encoder.so:system/lib/libOMX.brcm.video.mpeg4.encoder.so \
-    $(LOCAL_PATH)/proprietary/libOMX.brcm.video.vpx.decoder.so:system/lib/libOMX.brcm.video.vpx.decoder.so
+    $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.mp3.encoder.so:system/lib/libOMX.brcm.audio.mp3.encoder.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so \
@@ -74,10 +64,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/rild:system/bin/rild \
-    $(LOCAL_PATH)/proprietary/samsungpowersoundplay:system/bin/samsungpowersoundplay \
     $(LOCAL_PATH)/proprietary/BCM4334B0_002.001.013.0602.0616.hcd:system/bin/BCM4334B0_002.001.013.0602.0616.hcd \
     $(LOCAL_PATH)/proprietary/libGLES_rhea.so:system/lib/egl/libGLES_rhea.so \
-    $(LOCAL_PATH)/proprietary/j4fs.ko:system/lib/modules/j4fs.ko \
     $(LOCAL_PATH)/proprietary/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     $(LOCAL_PATH)/proprietary/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so
 
@@ -116,7 +104,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libVCOS.so:system/lib/libVCOS.so \
     $(LOCAL_PATH)/proprietary/libvpx_dec.so:system/lib/libvpx_dec.so \
     $(LOCAL_PATH)/proprietary/libvtqinit.so:system/lib/libvtqinit.so \
-    $(LOCAL_PATH)/proprietary/libvwengine.so:system/lib/libvwengine.so \
     $(LOCAL_PATH)/proprietary/libwvm.so:system/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     $(LOCAL_PATH)/proprietary/lib_ARC_Omx_Plugin.so:system/lib/lib_ARC_Omx_Plugin.so \
@@ -165,21 +152,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bluetoothd:system/bin/bluetoothd \
     $(LOCAL_PATH)/proprietary/mfgloader:system/bin/mfgloader \
-    $(LOCAL_PATH)/proprietary/usbdev_mode:system/bin/usbdev_mode \
-    $(LOCAL_PATH)/proprietary/usb_portd:system/bin/usb_portd \
-    $(LOCAL_PATH)/proprietary/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
-    $(LOCAL_PATH)/proprietary/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
     $(LOCAL_PATH)/proprietary/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
     $(LOCAL_PATH)/proprietary/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
-    $(LOCAL_PATH)/proprietary/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
     $(LOCAL_PATH)/proprietary/libmpeg4_dummy_enc.so:system/lib/libmpeg4_dummy_enc.so \
     $(LOCAL_PATH)/proprietary/libmpeg4_fake_dec.so:system/lib/libmpeg4_fake_dec.so \
-    $(LOCAL_PATH)/proprietary/libcodec_util.so:system/lib/libcodec_util.so \
     $(LOCAL_PATH)/proprietary/libdeblock.so:system/lib/libdeblock.so \
     $(LOCAL_PATH)/proprietary/libh263_dummy_enc.so:system/lib/libh263_dummy_enc.so \
     $(LOCAL_PATH)/proprietary/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
-    $(LOCAL_PATH)/proprietary/libh264_dummy_enc.so:system/lib/libh264_dummy_enc.so \
-    $(LOCAL_PATH)/proprietary/libmp3_dec_dummy.so:system/lib/libmp3_dec_dummy.so \
-    $(LOCAL_PATH)/proprietary/libmp3_enc_dummy.so:system/lib/libmp3_enc_dummy.so \
-    $(LOCAL_PATH)/proprietary/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so \
-    $(LOCAL_PATH)/proprietary/libtiming.so:system/lib/libtiming.so
+    $(LOCAL_PATH)/proprietary/libh264_dummy_enc.so:system/lib/libh264_dummy_enc.so
