@@ -177,4 +177,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libmp3_dec_dummy.so:system/lib/libmp3_dec_dummy.so \
     $(LOCAL_PATH)/proprietary/libmp3_enc_dummy.so:system/lib/libmp3_enc_dummy.so \
     $(LOCAL_PATH)/proprietary/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so \
-    $(LOCAL_PATH)/proprietary/libtiming.so:system/lib/libtiming.so
+    $(LOCAL_PATH)/proprietary/libtiming.so:system/lib/libtiming.so \
+    $(LOCAL_PATH)/proprietary/libomission_avoidance.so:system/lib/libomission_avoidance.so
