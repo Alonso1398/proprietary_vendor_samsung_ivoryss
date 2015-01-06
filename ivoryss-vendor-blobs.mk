@@ -147,8 +147,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/Volume.db:system/etc/Volume.db \
     $(LOCAL_PATH)/proprietary/glconfig.xml:system/etc/gps/glconfig.xml \
     $(LOCAL_PATH)/proprietary/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
-    $(LOCAL_PATH)/proprietary/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
-    $(LOCAL_PATH)/proprietary/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     $(LOCAL_PATH)/proprietary/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     $(LOCAL_PATH)/proprietary/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     $(LOCAL_PATH)/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
