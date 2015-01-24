@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/bluetoothd:system/bin/bluetoothd \
     $(LOCAL_PATH)/proprietary/mfgloader:system/bin/mfgloader \
     $(LOCAL_PATH)/proprietary/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
     $(LOCAL_PATH)/proprietary/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
