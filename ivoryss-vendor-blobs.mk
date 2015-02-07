@@ -21,8 +21,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/gralloc.rhea.so:system/lib/hw/gralloc.rhea.so \
     $(LOCAL_PATH)/proprietary/hwcomposer.rhea.so:system/lib/hw/hwcomposer.rhea.so \
     $(LOCAL_PATH)/proprietary/lights.rhea.so:system/lib/hw/lights.rhea.so \
-    $(LOCAL_PATH)/proprietary/sensors.rhea.so:system/lib/hw/sensors.rhea.so \
-    $(LOCAL_PATH)/proprietary/acoustics.default.so:system/lib/hw/acoustics.default.so
+    $(LOCAL_PATH)/proprietary/sensors.rhea.so:system/lib/hw/sensors.rhea.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
@@ -118,11 +117,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     $(LOCAL_PATH)/proprietary/lib_ARC_Omx_Plugin.so:system/lib/lib_ARC_Omx_Plugin.so \
     $(LOCAL_PATH)/proprietary/lib_SoundAlive_for_ICS_V01013a.so:system/lib/lib_SoundAlive_for_ICS_V01013a.so \
-    $(LOCAL_PATH)/proprietary/alsa.default.so:system/lib/hw/alsa.default.so \
-    $(LOCAL_PATH)/proprietary/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
-    $(LOCAL_PATH)/proprietary/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
-    $(LOCAL_PATH)/proprietary/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
-    $(LOCAL_PATH)/proprietary/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so
+    $(LOCAL_PATH)/proprietary/alsa.default.so:system/lib/hw/alsa.default.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/atrace:system/bin/atrace \
