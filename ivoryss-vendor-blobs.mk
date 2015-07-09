@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/mfgloader:system/bin/mfgloader \
     $(LOCAL_PATH)/proprietary/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
     $(LOCAL_PATH)/proprietary/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
-    $(LOCAL_PATH)/proprietary/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
     $(LOCAL_PATH)/proprietary/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
     $(LOCAL_PATH)/proprietary/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
     $(LOCAL_PATH)/proprietary/libmpeg4_dummy_enc.so:system/lib/libmpeg4_dummy_enc.so \
